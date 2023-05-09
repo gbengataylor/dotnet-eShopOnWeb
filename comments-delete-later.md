@@ -25,8 +25,6 @@ apiVersion: v1
 metadata:
   name: sqlserver
 spec:
-  clusterIP: 172.30.102.192
-
   ports:
     - protocol: TCP
       port: 1433
